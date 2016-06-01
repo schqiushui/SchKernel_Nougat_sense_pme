@@ -48,7 +48,7 @@
  * (to see the precise effective timeslice length of your workload,
  *  run vmstat and monitor the context-switches (cs) field)
  */
-static int min_budget = 80;
+static int min_budget = 60;
 module_param(min_budget, int, 0755);
 
 unsigned int sysctl_sched_latency = 6000000ULL;
